@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background: lightgreen; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <div style="position: absolute; top:30%; left:50%; transform: translate(-50%,-50%); ">
+        <img src="https://static.vecteezy.com/system/resources/previews/018/930/696/original/spotify-app-logo-spotify-icon-transparent-free-png.png" alt="logo app" style="width: 600px;">
+    </div>
+
+    <div>
+        <h1 style="position: absolute; top:10%; left:50%;transform: translate(-50%,-50%);">Registrati all'app per iniziare ad ascoltare</h1>
+        <p style="position: absolute; top:15%; left:50%;transform: translate(-50%,-50%);">Tutta la tua musica direttamente a portata di mano</p>
+    </div>
+
+    <form style="position: absolute; top: 47%; left:50%; transform: translate(-50%,-50%)"; onsubmit="alert('Registrazione avvenuta con successo!')">
+        <div>
+            <input type="text"; placeholder="Nome">
+            <br>
+            <input type="text"; placeholder="Cognome">
+            <br>
+            <input type="email"; placeholder="nome@dominio.com">
+            <br>
+            <input type="password"; placeholder="Password">
+            <br>
+            <input type="date"; placeholder="Data di nascita gg/mm/aaaa">
+            <br>
+            <input type="number"; placeholder="Numero di telefono">
+        </div>
+
+        <br>
+
+        <fieldset>
+            <legend>Seleziona i tuoi generi preferiti:</legend>
+
+            <div>
+                <input type="checkbox" name="Rock" id="Rock">
+                <label for="Rock">Rock</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="Rap" id="Rap">
+                <label for="Rap">Rap</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="Classica" id="Classica">
+                <label for="Classica">Classica</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="Jazz" id="Jazz">
+                <label for="Jazz">Jazz</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="Pop" id="Pop">
+                <label for="Rock">Pop</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="Reggae" id="Reggae">
+                <label for="Reggae">Reggae</label>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <div style="position: absolute;">
+            <input type="radio" id="terms">
+            <label for="terms">Ho letto l'informativa sulla privacy e acconsento alla memorizzazione dei dati nel vostro archivio secondo l'art. XXX</label>
+        </div>
+
+        <div style="position: absolute; top: 130%;">
+            <button>Completa la registrazione</button>
+        </div>
+    </form>
+</body>
+</html>
