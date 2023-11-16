@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+}
+
+#search-btn {
+    padding: 0 0.8em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail-prompt {
+    width: 33%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.under-img {
+    display: flex;
+}
+
+.thumbnail-prompt {
+    width: 24vw;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumb-img img {
+    width: 100%;
+}
+
+.under-img {
+    height: 5vh;
+    display: flex;
+}
+
+.left-logo {
+    margin: 1vh;
+    height: 6.8vh;
+}
+
+.under-text {
+    padding-left: 0.3vh;
+}
+
+.tracktitle {
+    font-style: normal;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.under-text p {
+    font-size: 0.8em;
+}
